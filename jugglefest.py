@@ -5,6 +5,7 @@ email:  vinassr@gmail.com
 Solution to yodle Juggle Fest problem
 """
 import fileinput
+import time
 
 class Circuits:
     def __init__(self, name, h, e, p):
@@ -33,35 +34,37 @@ class Jugglers:
         self.preferenceList = preferenceList
         self.dotList = dotList
 
-
 def dot(a, b, c, d, e, f):
-    return (int(a)*int(d))+(int(b)*int(e))+(int(c)*int(f))
+    return a*d+b*e+c*f
 
 def main():
+    start = time.time()
     circuits = []
     jugglers = []
     filename = 'jugglefest.txt'
-
+    pListLen = 0
     # Read text file and add data
     for line in fileinput.input([filename]): 
         if line.strip():
             if line.split()[0] == 'C':
                 circuits.append(Circuits(line.split()[1], 
-                                         line.split()[2].strip('H:'), 
-                                         line.split()[3].strip('E:'), 
-                                         line.split()[4].strip('P:')))
+                                         int(line.split()[2].strip('H:')), 
+                                         int(line.split()[3].strip('E:')), 
+                                         int(line.split()[4].strip('P:'))))
             else:
-                jh = line.split()[2].strip('H:')
-                je = line.split()[3].strip('E:')
-                jp = line.split()[4].strip('P:')
+                jh = int(line.split()[2].strip('H:'))
+                je = int(line.split()[3].strip('E:'))
+                jp = int(line.split()[4].strip('P:'))
                 pList = list(line.split()[5].split(','))
+                if pListLen == 0:
+                    pListLen = len(pList) # Move out of loop for better speed
                 jugglers.append(
                     Jugglers(line.split()[1], jh, je, jp, pList,
                              [dot(jh, je, jp, 
                                   circuits[int(pList[x].strip('C'))].h, 
                                   circuits[int(pList[x].strip('C'))].e, 
                                   circuits[int(pList[x].strip('C'))].p) 
-                              for x in xrange(len(pList))]))           
+                              for x in xrange(pListLen)]))           
     fileinput.close()
 
     # Build a list of tuples of Sorted jugglers 
@@ -134,8 +137,7 @@ def main():
                         c.pDots.append(d)
                         cIndex.partners.remove(j)
                         jIndex.partner = c.name
-                    
-
+                   
     # Format output text file
     f = open("output.txt", "w")
     for xx in xrange(cSize):
@@ -144,7 +146,7 @@ def main():
             f.write(' ')
             f.write(circuits[xx].partners[x])
             pIndex = int(circuits[xx].partners[x].strip('J'))
-            for y in xrange(len(jugglers[pIndex].preferenceList)):
+            for y in xrange(pListLen):
                 f.write(' ')
                 f.write(jugglers[pIndex].preferenceList[y])
                 f.write(':')
@@ -162,7 +164,8 @@ def main():
         sol += int(circuits[cOut].partners[x].strip('J'))
     print circuits[cOut].name, sol
     print sol,'@yodle.com'
-
+    stop = time.time()
+    print stop - start
 
 if __name__ == '__main__':
     main()
