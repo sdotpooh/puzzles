@@ -21,6 +21,7 @@ int main()
 	int count = 0; 
 	// The multiplier for the input integer/the largest 
 	// binary value to achieve N = 1,000,000,000 (2^29)
+	// 2^29 = 536870912
 	int inM  = 536870912; 
 	// The multiplier for the output integer
 	int outM = 0;   
