@@ -12,45 +12,43 @@ using std::cin;
 using std::cout;
 using std::endl;
 
-int main()
+int reverseBinary(int input)
 {
 	// Initialization of the output integer (final answer)
 	int output = 0;
-	// A counter used to detect the 1st entrance into our 
-	// testing condition (input >= inM)
 	int count = 0; 
-	// The multiplier for the input integer/the largest 
+	int outputMultiplier = 0;
+	// The upper limit = 2^29 
 	// binary value to achieve N = 1,000,000,000 (2^29)
 	// 2^29 = 536870912
-	int inM  = 536870912; 
-	// The multiplier for the output integer
-	int outM = 0;   
+	int inputMultiplier = 536870912;
+	while(input != 0)
+	{
+		// If input is greater than inputMultiplier then subtract 
+		// that 2^x value to construct its binary equivalent
+		if(input >= inputMultiplier)
+		{
+			input -= inputMultiplier;
+			if(count == 0)
+			{
+				outputMultiplier = 1; 
+				count++;
+			}			
+			output += outputMultiplier;
+		}
+		// Decrement the inputMultiplier by a factor of 2
+		inputMultiplier /= 2;  
+		// Increment the outputMultiplier by a factor of 2
+		outputMultiplier *= 2; 
+	}
+	return output;
+}
+
+int main()
+{
 	int input;
 	// Grabs just a single integer from the command line
 	cin >> input; 
-
-	// The loop runs until the input is converted to 
-	// its binary equivalent (i.e. equals zero)
-	// Simultaneously converting it to the inverse 
-	// integer reversed binary
-	while(input != 0)
-	{
-		// If input is greater than inM then subtract 
-		// that 2^x value to construct its binary equivalent
-		if(input >= inM)
-		{
-			input -= inM;
-			if(count == 0)
-			{
-				outM = 1; 
-				count++;
-			}			
-			output += outM;
-		}
-		// Reduce the input multiplier by a factor of 2
-		inM /= 2;  
-		// Increase the output multiplier by a factor of 2
-		outM *= 2; 
-	}
+	int output = reverseBinary(input); 
 	cout << output  << endl;
 }
