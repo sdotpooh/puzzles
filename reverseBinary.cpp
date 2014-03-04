@@ -14,31 +14,23 @@ using std::endl;
 
 int reverseBinary(int input)
 {
-	// Initialization of the output integer (final answer)
 	int output = 0;
-	int count = 0; 
+	int count  = 0; 
 	int outputMultiplier = 0;
-	// The upper limit = 2^29 
-	// binary value to achieve N = 1,000,000,000 (2^29)
-	// 2^29 = 536870912
+	// Upper bound = 1,000,000,000 = 2^29 = 536870912
 	int inputMultiplier = 536870912;
-	while(input != 0)
-	{
+	while(input != 0) {
 		// If input is greater than inputMultiplier then subtract 
 		// that 2^x value to construct its binary equivalent
-		if(input >= inputMultiplier)
-		{
+		if(input >= inputMultiplier) {
 			input -= inputMultiplier;
-			if(count == 0)
-			{
+			if(count == 0) {
 				outputMultiplier = 1; 
 				count++;
 			}			
 			output += outputMultiplier;
 		}
-		// Decrement the inputMultiplier by a factor of 2
-		inputMultiplier /= 2;  
-		// Increment the outputMultiplier by a factor of 2
+		inputMultiplier  /= 2;  
 		outputMultiplier *= 2; 
 	}
 	return output;
