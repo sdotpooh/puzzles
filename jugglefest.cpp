@@ -261,10 +261,8 @@ void Circuit::remove_partner_and_dot(Juggler& juggler) {
 	vector<string>::iterator it;
 	it = std::find(partners.begin(), partners.end(), juggler.get_name());
 	int pos = std::distance(partners.begin(), it);
-	//cout << partners_.size() << " " << partners_dot_values_.size() << endl;
 	partners_.erase(partners_.begin() + pos);
 	partners_dot_values_.erase(partners_dot_values_.begin() + pos);
-	//cout << partners_.size() << " " << partners_dot_values_.size() << endl;
 }
 
 
@@ -470,7 +468,6 @@ unsigned short int who_to_email_at_yodle(Circuit& circuit) {
 void test_circuit_class() {
 	// Test the Circuits class
 	Circuit circuit("C0", 8, 9, 10);
-	//cout << circuit.get_name() << "\n";
 	assert(circuit.get_name() == "C0");
 	assert(circuit.get_value() == 0);
 	assert(circuit.get_hand_eye() == 8);
@@ -504,7 +501,6 @@ void test_juggler_class() {
 	vector<unsigned short int> circuit_dots;
 	circuit_dots.push_back(120);
 	circuit_dots.push_back(119);
-	// No default constructor, begin by instantiating a Juggler
 	Juggler juggler("J0", 10, 9, 8, circuit_list, circuit_dots);
 	assert(juggler.get_name() == "J0");
 	assert(juggler.get_value() == 0);
@@ -554,7 +550,6 @@ void test_all() {
 
 
 int main(int argc, char *argv[]) {
-	//If there's no argument passed, run test_all()
 	if(argc < 2)
 		test_all();
 	else {
