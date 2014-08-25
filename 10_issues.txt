@@ -1,0 +1,676 @@
+Social issues: 10
+
+Campaign Finance: 852548
+Censorship and the Internet: 1013069
+Child Support: 1510531
+Church State: 975292
+Civil Rights: 206083
+Climate Change / Global Warming: 1582766
+Crime: 768013
+Death Penalty: 320833
+Don't-Ask-Don't-Tell: 518681
+Drug Policy: 252143
+
+Mississippi
+Votes: 6
+Campaign Finance: 7
+Censorship and the Internet: 3
+Child Support: 3
+Church State: 10
+Civil Rights: 6
+Climate Change / Global Warming: 18
+Crime: 17
+Death Penalty: 18
+Don't-Ask-Don't-Tell: 4
+Drug Policy: 8
+
+Oklahoma
+Votes: 7
+Campaign Finance: 2
+Censorship and the Internet: 4
+Child Support: 5
+Church State: 3
+Civil Rights: 11
+Climate Change / Global Warming: 11
+Crime: 7
+Death Penalty: 10
+Don't-Ask-Don't-Tell: 8
+Drug Policy: 16
+
+Delaware
+Votes: 3
+Campaign Finance: 1
+Censorship and the Internet: 17
+Child Support: 17
+Church State: 10
+Civil Rights: 2
+Climate Change / Global Warming: 15
+Crime: 12
+Death Penalty: 8
+Don't-Ask-Don't-Tell: 5
+Drug Policy: 7
+
+Minnesota
+Votes: 10
+Campaign Finance: 20
+Censorship and the Internet: 3
+Child Support: 5
+Church State: 20
+Civil Rights: 13
+Climate Change / Global Warming: 9
+Crime: 1
+Death Penalty: 3
+Don't-Ask-Don't-Tell: 8
+Drug Policy: 9
+
+Illinois
+Votes: 20
+Campaign Finance: 2
+Censorship and the Internet: 14
+Child Support: 15
+Church State: 16
+Civil Rights: 16
+Climate Change / Global Warming: 3
+Crime: 3
+Death Penalty: 19
+Don't-Ask-Don't-Tell: 2
+Drug Policy: 10
+
+Arkansas
+Votes: 6
+Campaign Finance: 11
+Censorship and the Internet: 0
+Child Support: 18
+Church State: 6
+Civil Rights: 10
+Climate Change / Global Warming: 8
+Crime: 12
+Death Penalty: 17
+Don't-Ask-Don't-Tell: 12
+Drug Policy: 7
+
+New Mexico
+Votes: 5
+Campaign Finance: 4
+Censorship and the Internet: 16
+Child Support: 17
+Church State: 14
+Civil Rights: 3
+Climate Change / Global Warming: 18
+Crime: 0
+Death Penalty: 9
+Don't-Ask-Don't-Tell: 2
+Drug Policy: 11
+
+Indiana
+Votes: 11
+Campaign Finance: 4
+Censorship and the Internet: 16
+Child Support: 5
+Church State: 3
+Civil Rights: 9
+Climate Change / Global Warming: 11
+Crime: 7
+Death Penalty: 18
+Don't-Ask-Don't-Tell: 12
+Drug Policy: 5
+
+Louisiana
+Votes: 8
+Campaign Finance: 6
+Censorship and the Internet: 7
+Child Support: 15
+Church State: 19
+Civil Rights: 19
+Climate Change / Global Warming: 20
+Crime: 16
+Death Penalty: 20
+Don't-Ask-Don't-Tell: 7
+Drug Policy: 7
+
+Texas
+Votes: 38
+Campaign Finance: 20
+Censorship and the Internet: 16
+Child Support: 16
+Church State: 1
+Civil Rights: 7
+Climate Change / Global Warming: 11
+Crime: 8
+Death Penalty: 6
+Don't-Ask-Don't-Tell: 17
+Drug Policy: 1
+
+Wisconsin
+Votes: 10
+Campaign Finance: 18
+Censorship and the Internet: 18
+Child Support: 13
+Church State: 7
+Civil Rights: 17
+Climate Change / Global Warming: 8
+Crime: 2
+Death Penalty: 4
+Don't-Ask-Don't-Tell: 14
+Drug Policy: 15
+
+Kansas
+Votes: 6
+Campaign Finance: 8
+Censorship and the Internet: 2
+Child Support: 9
+Church State: 6
+Civil Rights: 9
+Climate Change / Global Warming: 3
+Crime: 16
+Death Penalty: 12
+Don't-Ask-Don't-Tell: 12
+Drug Policy: 3
+
+Connecticut
+Votes: 7
+Campaign Finance: 0
+Censorship and the Internet: 8
+Child Support: 10
+Church State: 12
+Civil Rights: 1
+Climate Change / Global Warming: 14
+Crime: 8
+Death Penalty: 18
+Don't-Ask-Don't-Tell: 19
+Drug Policy: 8
+
+California
+Votes: 55
+Campaign Finance: 6
+Censorship and the Internet: 8
+Child Support: 17
+Church State: 9
+Civil Rights: 5
+Climate Change / Global Warming: 16
+Crime: 7
+Death Penalty: 15
+Don't-Ask-Don't-Tell: 11
+Drug Policy: 9
+
+West Virginia
+Votes: 5
+Campaign Finance: 4
+Censorship and the Internet: 7
+Child Support: 0
+Church State: 1
+Civil Rights: 13
+Climate Change / Global Warming: 10
+Crime: 6
+Death Penalty: 1
+Don't-Ask-Don't-Tell: 18
+Drug Policy: 14
+
+Georgia
+Votes: 16
+Campaign Finance: 4
+Censorship and the Internet: 20
+Child Support: 16
+Church State: 12
+Civil Rights: 9
+Climate Change / Global Warming: 0
+Crime: 8
+Death Penalty: 15
+Don't-Ask-Don't-Tell: 13
+Drug Policy: 5
+
+North Dakota
+Votes: 3
+Campaign Finance: 15
+Censorship and the Internet: 20
+Child Support: 18
+Church State: 7
+Civil Rights: 3
+Climate Change / Global Warming: 10
+Crime: 1
+Death Penalty: 19
+Don't-Ask-Don't-Tell: 4
+Drug Policy: 20
+
+Pennsylvania
+Votes: 20
+Campaign Finance: 13
+Censorship and the Internet: 5
+Child Support: 8
+Church State: 8
+Civil Rights: 11
+Climate Change / Global Warming: 15
+Crime: 7
+Death Penalty: 14
+Don't-Ask-Don't-Tell: 20
+Drug Policy: 4
+
+Alaska
+Votes: 3
+Campaign Finance: 11
+Censorship and the Internet: 2
+Child Support: 16
+Church State: 14
+Civil Rights: 12
+Climate Change / Global Warming: 14
+Crime: 15
+Death Penalty: 7
+Don't-Ask-Don't-Tell: 8
+Drug Policy: 14
+
+Missouri
+Votes: 10
+Campaign Finance: 1
+Censorship and the Internet: 14
+Child Support: 5
+Church State: 4
+Civil Rights: 0
+Climate Change / Global Warming: 6
+Crime: 16
+Death Penalty: 17
+Don't-Ask-Don't-Tell: 3
+Drug Policy: 7
+
+South Dakota
+Votes: 3
+Campaign Finance: 3
+Censorship and the Internet: 10
+Child Support: 3
+Church State: 0
+Civil Rights: 1
+Climate Change / Global Warming: 2
+Crime: 7
+Death Penalty: 12
+Don't-Ask-Don't-Tell: 8
+Drug Policy: 9
+
+Colorado
+Votes: 9
+Campaign Finance: 10
+Censorship and the Internet: 18
+Child Support: 12
+Church State: 19
+Civil Rights: 11
+Climate Change / Global Warming: 7
+Crime: 15
+Death Penalty: 18
+Don't-Ask-Don't-Tell: 15
+Drug Policy: 2
+
+New Jersey
+Votes: 14
+Campaign Finance: 14
+Censorship and the Internet: 5
+Child Support: 17
+Church State: 14
+Civil Rights: 7
+Climate Change / Global Warming: 13
+Crime: 20
+Death Penalty: 16
+Don't-Ask-Don't-Tell: 8
+Drug Policy: 9
+
+Washington
+Votes: 12
+Campaign Finance: 4
+Censorship and the Internet: 7
+Child Support: 9
+Church State: 0
+Civil Rights: 4
+Climate Change / Global Warming: 14
+Crime: 2
+Death Penalty: 20
+Don't-Ask-Don't-Tell: 1
+Drug Policy: 7
+
+New York
+Votes: 29
+Campaign Finance: 6
+Censorship and the Internet: 4
+Child Support: 0
+Church State: 14
+Civil Rights: 7
+Climate Change / Global Warming: 15
+Crime: 18
+Death Penalty: 12
+Don't-Ask-Don't-Tell: 14
+Drug Policy: 4
+
+Nevada
+Votes: 6
+Campaign Finance: 19
+Censorship and the Internet: 10
+Child Support: 1
+Church State: 3
+Civil Rights: 16
+Climate Change / Global Warming: 8
+Crime: 19
+Death Penalty: 16
+Don't-Ask-Don't-Tell: 6
+Drug Policy: 17
+
+Maryland
+Votes: 10
+Campaign Finance: 11
+Censorship and the Internet: 7
+Child Support: 0
+Church State: 17
+Civil Rights: 13
+Climate Change / Global Warming: 14
+Crime: 6
+Death Penalty: 0
+Don't-Ask-Don't-Tell: 15
+Drug Policy: 12
+
+Idaho
+Votes: 4
+Campaign Finance: 2
+Censorship and the Internet: 13
+Child Support: 5
+Church State: 19
+Civil Rights: 17
+Climate Change / Global Warming: 6
+Crime: 13
+Death Penalty: 9
+Don't-Ask-Don't-Tell: 20
+Drug Policy: 15
+
+Wyoming
+Votes: 3
+Campaign Finance: 7
+Censorship and the Internet: 9
+Child Support: 2
+Church State: 7
+Civil Rights: 20
+Climate Change / Global Warming: 6
+Crime: 13
+Death Penalty: 15
+Don't-Ask-Don't-Tell: 17
+Drug Policy: 9
+
+Arizona
+Votes: 11
+Campaign Finance: 0
+Censorship and the Internet: 15
+Child Support: 10
+Church State: 9
+Civil Rights: 13
+Climate Change / Global Warming: 13
+Crime: 12
+Death Penalty: 19
+Don't-Ask-Don't-Tell: 20
+Drug Policy: 14
+
+Iowa
+Votes: 6
+Campaign Finance: 18
+Censorship and the Internet: 10
+Child Support: 5
+Church State: 17
+Civil Rights: 3
+Climate Change / Global Warming: 19
+Crime: 13
+Death Penalty: 0
+Don't-Ask-Don't-Tell: 8
+Drug Policy: 9
+
+Michigan
+Votes: 16
+Campaign Finance: 6
+Censorship and the Internet: 4
+Child Support: 0
+Church State: 3
+Civil Rights: 17
+Climate Change / Global Warming: 15
+Crime: 2
+Death Penalty: 3
+Don't-Ask-Don't-Tell: 5
+Drug Policy: 6
+
+Utah
+Votes: 6
+Campaign Finance: 3
+Censorship and the Internet: 9
+Child Support: 9
+Church State: 12
+Civil Rights: 0
+Climate Change / Global Warming: 1
+Crime: 3
+Death Penalty: 3
+Don't-Ask-Don't-Tell: 8
+Drug Policy: 7
+
+Virginia
+Votes: 13
+Campaign Finance: 18
+Censorship and the Internet: 7
+Child Support: 0
+Church State: 20
+Civil Rights: 7
+Climate Change / Global Warming: 6
+Crime: 2
+Death Penalty: 20
+Don't-Ask-Don't-Tell: 10
+Drug Policy: 12
+
+Oregon
+Votes: 7
+Campaign Finance: 9
+Censorship and the Internet: 10
+Child Support: 18
+Church State: 1
+Civil Rights: 9
+Climate Change / Global Warming: 9
+Crime: 10
+Death Penalty: 20
+Don't-Ask-Don't-Tell: 6
+Drug Policy: 13
+
+Montana
+Votes: 3
+Campaign Finance: 4
+Censorship and the Internet: 14
+Child Support: 8
+Church State: 0
+Civil Rights: 10
+Climate Change / Global Warming: 7
+Crime: 7
+Death Penalty: 20
+Don't-Ask-Don't-Tell: 7
+Drug Policy: 7
+
+New Hampshire
+Votes: 4
+Campaign Finance: 6
+Censorship and the Internet: 10
+Child Support: 5
+Church State: 2
+Civil Rights: 8
+Climate Change / Global Warming: 3
+Crime: 3
+Death Penalty: 9
+Don't-Ask-Don't-Tell: 18
+Drug Policy: 17
+
+Massachusetts
+Votes: 11
+Campaign Finance: 12
+Censorship and the Internet: 10
+Child Support: 0
+Church State: 17
+Civil Rights: 7
+Climate Change / Global Warming: 3
+Crime: 6
+Death Penalty: 12
+Don't-Ask-Don't-Tell: 11
+Drug Policy: 8
+
+South Carolina
+Votes: 9
+Campaign Finance: 17
+Censorship and the Internet: 0
+Child Support: 16
+Church State: 12
+Civil Rights: 10
+Climate Change / Global Warming: 15
+Crime: 16
+Death Penalty: 1
+Don't-Ask-Don't-Tell: 3
+Drug Policy: 16
+
+Vermont
+Votes: 3
+Campaign Finance: 2
+Censorship and the Internet: 13
+Child Support: 3
+Church State: 3
+Civil Rights: 11
+Climate Change / Global Warming: 15
+Crime: 3
+Death Penalty: 10
+Don't-Ask-Don't-Tell: 0
+Drug Policy: 17
+
+Florida
+Votes: 29
+Campaign Finance: 16
+Censorship and the Internet: 16
+Child Support: 1
+Church State: 19
+Civil Rights: 16
+Climate Change / Global Warming: 4
+Crime: 13
+Death Penalty: 9
+Don't-Ask-Don't-Tell: 11
+Drug Policy: 4
+
+Hawaii
+Votes: 4
+Campaign Finance: 4
+Censorship and the Internet: 1
+Child Support: 20
+Church State: 12
+Civil Rights: 19
+Climate Change / Global Warming: 14
+Crime: 13
+Death Penalty: 16
+Don't-Ask-Don't-Tell: 19
+Drug Policy: 10
+
+Kentucky
+Votes: 8
+Campaign Finance: 4
+Censorship and the Internet: 16
+Child Support: 0
+Church State: 17
+Civil Rights: 13
+Climate Change / Global Warming: 20
+Crime: 19
+Death Penalty: 14
+Don't-Ask-Don't-Tell: 17
+Drug Policy: 13
+
+Rhode Island
+Votes: 4
+Campaign Finance: 18
+Censorship and the Internet: 8
+Child Support: 19
+Church State: 5
+Civil Rights: 8
+Climate Change / Global Warming: 8
+Crime: 14
+Death Penalty: 16
+Don't-Ask-Don't-Tell: 6
+Drug Policy: 11
+
+Nebraska
+Votes: 5
+Campaign Finance: 3
+Censorship and the Internet: 13
+Child Support: 15
+Church State: 11
+Civil Rights: 1
+Climate Change / Global Warming: 13
+Crime: 17
+Death Penalty: 0
+Don't-Ask-Don't-Tell: 9
+Drug Policy: 19
+
+District of Columbia
+Votes: 3
+Campaign Finance: 20
+Censorship and the Internet: 4
+Child Support: 2
+Church State: 3
+Civil Rights: 17
+Climate Change / Global Warming: 8
+Crime: 16
+Death Penalty: 8
+Don't-Ask-Don't-Tell: 3
+Drug Policy: 17
+
+Ohio
+Votes: 18
+Campaign Finance: 10
+Censorship and the Internet: 16
+Child Support: 12
+Church State: 18
+Civil Rights: 7
+Climate Change / Global Warming: 8
+Crime: 2
+Death Penalty: 12
+Don't-Ask-Don't-Tell: 18
+Drug Policy: 15
+
+Alabama
+Votes: 9
+Campaign Finance: 16
+Censorship and the Internet: 0
+Child Support: 15
+Church State: 1
+Civil Rights: 18
+Climate Change / Global Warming: 13
+Crime: 10
+Death Penalty: 2
+Don't-Ask-Don't-Tell: 2
+Drug Policy: 4
+
+North Carolina
+Votes: 15
+Campaign Finance: 1
+Censorship and the Internet: 0
+Child Support: 1
+Church State: 0
+Civil Rights: 17
+Climate Change / Global Warming: 2
+Crime: 11
+Death Penalty: 2
+Don't-Ask-Don't-Tell: 19
+Drug Policy: 6
+
+Tennessee
+Votes: 11
+Campaign Finance: 9
+Censorship and the Internet: 10
+Child Support: 16
+Church State: 8
+Civil Rights: 20
+Climate Change / Global Warming: 3
+Crime: 13
+Death Penalty: 0
+Don't-Ask-Don't-Tell: 7
+Drug Policy: 2
+
+Maine
+Votes: 4
+Campaign Finance: 10
+Censorship and the Internet: 15
+Child Support: 20
+Church State: 12
+Civil Rights: 5
+Climate Change / Global Warming: 12
+Crime: 16
+Death Penalty: 14
+Don't-Ask-Don't-Tell: 20
+Drug Policy: 20
+

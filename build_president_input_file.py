@@ -36,7 +36,7 @@ def main():
               'War & Peace', 'War on Terror', 'Wealth Inequality',
               'Weapons of Mass Destruction', 'Welfare and Poverty']
 
-    x = random.sample([4, 6, 8, 12, 16, 18, 24, 32, 42, 48, 50,len(issues)], 4)
+    x = random.sample([4, 5, 6, 7, 8, 9, 10, 11, 12], 4)
     for i in x:
         file_name = './' + str(i) + '_issues.txt'
         outfile = open(file_name,"w")
