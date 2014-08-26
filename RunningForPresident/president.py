@@ -28,6 +28,7 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 '''
 import fileinput
+import unittest
 from copy import deepcopy
 from sys import argv
 from itertools import combinations
@@ -259,44 +260,34 @@ class Campaign(NameMethods, ObjectsMethods):
                 return
 
 
-def test_NameMethods_class():
-    pass
+class TestSequenceFunctions(unittest.TestCase):
+    #def setUp(self):
 
 
-def test_VotesMethods_class():
-    pass
+    def test_CostMethods_class(self):
+        cost = CostMethods(100)
+        cost.increment_cost(10)
+        self.assertEqual(cost.get_cost(), 110)
 
 
-def test_CostMethods_class():
-    pass
+    def test_ObjectsMethods_class(self):
+        pass
 
 
-def test_ObjectsMethods_class():
-    pass
+    def test_state(self):
+        pass
 
 
-def test_state():
-    new_york = State('New York', 20)
-    print 'State class passed all tests!'
+    def test_issue(self):
+        pass
 
 
-def test_issue():
-    crime = Issue('Crime') 
-    print 'Issue class passed all tests!'
+    def test_election(self):
+        pass
 
 
-def test_election():
-    print 'Election class passed all tests!'
-
-
-def test_campaigne():
-    print 'Campaign class passed all tests!'
-
-
-def test_all():
-    test_state()
-    test_issue()
-    print 'All tests pass!'
+    def test_campaigne(self):
+        pass
 
 
 def main():
@@ -310,4 +301,4 @@ if __name__ == '__main__':
     if len(argv) > 1:
         main()
     else:
-        test_all()
+        unittest.main()
