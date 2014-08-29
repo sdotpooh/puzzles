@@ -97,6 +97,7 @@ class ObjectsMethods(object):
 
 
 class State(NameMethods, VotesMethods):
+    ''' State class contains information of each voting state.'''
     def __init__(self, name, votes):
         self.name = name
         self.votes = votes
@@ -144,6 +145,8 @@ class State(NameMethods, VotesMethods):
 
 
 class Issue(NameMethods, CostMethods, VotesMethods, ObjectsMethods):
+    ''' Issue class contains all the states that value an issue. It's main
+    purpose is to organize the details of an Issue.'''
     def __init__(self, name, cost):
         self.name = name
         self.cost = cost
@@ -165,8 +168,11 @@ class Issue(NameMethods, CostMethods, VotesMethods, ObjectsMethods):
 
 
 class Election(VotesMethods, CostMethods, ObjectsMethods):
+    ''' An Election class stores the details of an election. An election
+    is simply collecting the votes achieved by taking into account a single or 
+    multiple Issues.'''
     def __init__(self, issues):
-        self.objects = deepcopy(issues)
+        self.objects = deepcopy(issues) #Makes a copy, doesn't corrupt orig
         self.votes = 0
         self.cost = 0
         self.solicit_issues()
@@ -182,6 +188,7 @@ class Election(VotesMethods, CostMethods, ObjectsMethods):
             state.add_issue_value(state_weight)
             self.solicit_vote(state)           
     def solicit_issues(self):
+        ''' Go through each Issue and accummulate votes.'''
         for issue in self.objects:
             self.solicit_states(issue)
             self.increment_cost(issue.get_cost())
@@ -189,6 +196,10 @@ class Election(VotesMethods, CostMethods, ObjectsMethods):
 
 
 class Campaign(NameMethods, ObjectsMethods):
+    ''' Campaign class reads the input file, creates Issues and States and
+    simulates all combinations of Issues in increasing order, stops when 
+    the optimal Election succeeds i.e. least Issues and cheapest cost
+    wins at least 270 electoral votes.'''
     def __init__(self, filename):
         self.name = filename
         self.objects = []
