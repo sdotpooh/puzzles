@@ -97,7 +97,7 @@ class Circuits(object):
         try:
             pos = self.partners.index(juggler.name)
         except IndexError:
-            print 'Remove circuit partner IndexError'
+            print ('Remove circuit partner IndexError')
         self.partners.pop(pos)
         self.partners_dot_values.pop(pos)
     def min_partner_dot(self):
@@ -185,7 +185,7 @@ def read_input_text_file(filename, circuits, jugglers, pref_list_len):
                             circuits[int(pref_list[x].strip('C'))].hand_eye,
                             circuits[int(pref_list[x].strip('C'))].endurance,
                             circuits[int(pref_list[x].strip('C'))].pizzazz)
-                        for x in xrange(pref_list_len)]
+                        for x in range(pref_list_len)]
                 jugglers.append(Jugglers(line.split()[1], jugglers_h,
                                          jugglers_e, jugglers_p, pref_list,
                                          temp))
@@ -306,14 +306,14 @@ def output_data_to_text_file(circuits_size, jugglers_size, pref_list_len,
     J4 C0:122 C2:106 C1:23."""
     outfile = open("./output.txt", "w")
     available_positions = jugglers_size/circuits_size
-    for circuit_num in xrange(circuits_size):
+    for circuit_num in range(circuits_size):
         outfile.write(circuits[circuit_num].name)
-        for position_num in xrange(available_positions):
+        for position_num in range(available_positions):
             outfile.write(' ')
             outfile.write(circuits[circuit_num].partners[position_num])
             pref_index = int(
                 circuits[circuit_num].partners[position_num].strip('J'))
-            for pref_num in xrange(pref_list_len):
+            for pref_num in range(pref_list_len):
                 outfile.write(' ')
                 outfile.write(jugglers[pref_index].preference_list[pref_num])
                 outfile.write(':')
@@ -470,9 +470,9 @@ def test_all():
     assert who_to_email_at_yodle(circuits[0]) == '5@yodle.com', (
         'expected  == 5@yodle.com')
 
-    print 'All tests passed'
+    print ('All tests passed')
 
-
+#@profile
 def main():
     """main program."""
     circuits = []
@@ -496,7 +496,7 @@ def main():
                              circuits, jugglers)
 
     circuit_number = 1970
-    print who_to_email_at_yodle(circuits[circuit_number])
+    print (who_to_email_at_yodle(circuits[circuit_number]))
 
 
 if __name__ == '__main__':
