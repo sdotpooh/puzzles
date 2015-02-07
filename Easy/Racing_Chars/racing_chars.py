@@ -13,11 +13,11 @@ from sys import argv
 
 
 def prev_car_location(last_track):
-    """ Returns an index of the last location the car was
+    """Returns an index of the last location the car was
     Args:
-	last_track: A string representing a track
+    last_track: A string representing a track
     Returns:
-	An int of the last car location as an index
+    An int of the last car location as an index
     For example:
     >>> prev_car_location('|##')
     0
