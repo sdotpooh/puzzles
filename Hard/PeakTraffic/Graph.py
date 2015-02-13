@@ -36,25 +36,33 @@ class Graph:
             self.graph[node] = None
 
     def edges(self, node):
-        return self.graph[node]
+        if node in self.nodes:
+            return self.graph[node]
+        else:
+            return None
 
     def add_edges(self, node_a, node_b):
-        # Add a loop
-        if node_a == node_b and node_a in self.nodes:
-            self.graph[node_a] = [node_b]
-        # Haven't added these edges yet, not a loop
-        if self.graph[node_a] is None:
-            self.graph[node_a] = [node_b]
-        elif node_b in self.graph[node_a]:
-            pass
-        else:
-            self.graph[node_a].append(node_b)
-        if self.graph[node_b] is None:
-            self.graph[node_b] = [node_a]
-        elif node_a in self.graph[node_b]:
-            pass
-        else:
-            self.graph[node_b].append(node_a)
+        # Must be nodes before becoming an edge
+        if node_a in self.nodes and node_b in self.nodes:
+            # Add a loop
+            if node_a == node_b:
+                if self.graph[node_a] is None:
+                    self.graph[node_a] = [node_a]
+                elif node_a not in self.graph[node_a]:
+                    self.graph[node_a].append(node_b)
+            # Haven't added these edges yet, not a loop
+            if self.graph[node_a] is None:
+                self.graph[node_a] = [node_b]
+            elif node_b in self.graph[node_a]:
+                pass
+            else:
+                self.graph[node_a].append(node_b)
+            if self.graph[node_b] is None:
+                self.graph[node_b] = [node_a]
+            elif node_a in self.graph[node_b]:
+                pass
+            else:
+                self.graph[node_b].append(node_a)
 
     def degree(self, node):
         if node in self.nodes:
@@ -66,32 +74,33 @@ class Graph:
 
     def connected(self, node_a, node_b):
         if node_a in self.nodes and node_b in self.nodes:
-            return node_a in self.graph[node_b]
+            return node_a in self.graph[node_b] if self.graph[node_b] is not None else False
         else:
             return False
 
-    def breadth_first_search(self, start, stop):
+    def bfs_distance(self, start, stop):
         """ Breadth first search of graph to find distance between start and stop node."""
-        visited = set()
-        distances = dict()
-        queue = Queue()
-        queue.put(start)
-        distances[start] = 1
-        while not queue.empty():
-            current_node = queue.get()
-            visited.add(current_node)
-            distance = distances[current_node]
-            for node in self.graph[current_node]:
-                if node not in visited:
-                    queue.put(node)
-                    visited.add(node)
-                    distances[node] = distance + 1
-                    if node == stop:
-                        return distance + 1
+        if start in self.nodes and stop in self.nodes:
+            visited = set()
+            distances = dict()
+            queue = Queue()
+            queue.put(start)
+            distances[start] = 1
+            while not queue.empty():
+                current_node = queue.get()
+                visited.add(current_node)
+                distance = distances[current_node]
+                for node in self.graph[current_node]:
+                    if node not in visited:
+                        queue.put(node)
+                        visited.add(node)
+                        distances[node] = distance + 1
+                        if node == stop:
+                            return distance + 1
         return 0
 
     def neighbor(self, node):
-        if node in self.graph:
+        if node in self.graph and self.graph[node] is not None:
             return [n_node for n_node in self.graph[node] if n_node]
 
     def bron_kerbosch_2(self, current, prospective, processed):
